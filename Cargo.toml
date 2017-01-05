@@ -1,0 +1,10 @@
+[package]
+name = "flowfield"
+version = "0.1.0"
+authors = ["Thomas Schilling <nominolo@googlemail.com>"]
+
+[dependencies]
+simd = "0.1.1"
+
+[profile.release]
+debug = true
